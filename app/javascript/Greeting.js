@@ -13,8 +13,8 @@ const Greeting = () => {
     <div>
       {greeting.map((elem) => (
         <div key={elem.id}>
-        <i className="fas fa-sun" />
-        <p>{elem.message}</p>
+          <i className="fas fa-sun" />
+          <p>{elem.message}</p>
         </div>
       ))}
     </div>
