@@ -15,7 +15,7 @@
  */
 
  html {
-  background: linear-gradient(to right, rgb(255, 153, 102), rgb(255, 94, 98));
+  background: linear-gradient(to right, rgb(255, 213, 192), rgb(94, 169, 255));
   box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@
   font-size: 15em;
   text-align: center;
   display: block;
-  color: #ffe9a0;
+  color: #ffcd28;
   text-shadow: 5px 5px #444;
 }
 
