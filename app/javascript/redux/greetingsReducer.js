@@ -5,10 +5,10 @@ const getData = async () => {
     greeting.push(data);
   });
   return (greeting);
-}
+};
 
 // Actions
-const SHOW_GREETINGS = 'SHOW_GREETINGS'
+const SHOW_GREETINGS = 'SHOW_GREETINGS';
 
 // Reducer
 const initialState = [];
