@@ -14,7 +14,7 @@
  *= require_self
  */
 
- html {
+html {
   background: linear-gradient(to right, rgb(255, 213, 192), rgb(94, 169, 255));
   box-sizing: border-box;
 }
@@ -39,19 +39,19 @@ p {
 }
 
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(360deg);
-		}
+  from {
+  -webkit-transform: rotate(0deg);
+  }
+  to {
+  -webkit-transform: rotate(360deg);
+  }
 }
 
 @-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(360deg);
-		}
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
