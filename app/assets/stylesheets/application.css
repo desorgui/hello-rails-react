@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+ html {
+  background: linear-gradient(to right, rgb(255, 153, 102), rgb(255, 94, 98));
+  box-sizing: border-box;
+}
+
+.fas.fa-sun {
+  margin: 5% auto;
+  -webkit-animation: rotation 15s infinite;
+  font-size: 15em;
+  text-align: center;
+  display: block;
+  color: #ffe9a0;
+  text-shadow: 5px 5px #444;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2em;
+  font-family: 'Nunito', sans-serif;
+  color: #ffe9a0;
+  text-shadow: 2px 2px #444;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+		}
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+		}
+}
